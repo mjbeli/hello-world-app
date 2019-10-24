@@ -7,6 +7,7 @@ namespace hello_world_app
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Console.WriteLine(DateTime.Now.ToString());
         }
     }
 }
